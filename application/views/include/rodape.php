@@ -1,6 +1,7 @@
     <div class="modal fade" id="modalCategoria" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <form action="<?=base_url('home/categoria-gravar')?>" method="post" name="formCategoria" id="formCategoria">
+          <input type="hidden" name="id" id="id" value="">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title">Nova categoria</h5>
@@ -11,7 +12,7 @@
             <div class="modal-body">
               <form>
                 <div class="form-group">
-                  <label for="recipient-name" class="col-form-label">Nome:</label>
+                  <label for="categoria" class="col-form-label">Nome:</label>
                   <input type="text" class="form-control" name="categoria" maxlength="45" title="Nome da categoria" required>
                 </div>
               </form>
@@ -24,7 +25,6 @@
         </form>
       </div>
     </div>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

@@ -74,10 +74,10 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=localhost:3306;dbname=rss_ci;charset=utf8;',
+	'dsn'	=> 'mysql:host=localhost:3307;dbname=rss_ci;charset=utf8;',
 	'hostname' => '',
 	'username' => 'root',
-	'password' => '',
+	'password' => 'guess',
 	'database' => '',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
